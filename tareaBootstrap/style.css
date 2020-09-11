@@ -1,0 +1,41 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+  color: black;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  min-width: 100%;
+  height: 100%;
+  position: initial;
+  align-items: center;
+  opacity: 60%;
+}
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
